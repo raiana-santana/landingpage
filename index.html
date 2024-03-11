@@ -3,25 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 
     <link rel="stylesheet" href="src/styles/styles.css" />
     <link rel="stylesheet" href="src/styles/header.css" />
     <link rel="stylesheet" href="src/styles/home.css" />
     <link rel="stylesheet" href="src/styles/menu.css" />
+    <link rel="stylesheet" href="src/styles/ratings.css" />
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Doce Mundo</title>
   </head>
   <body>
@@ -242,7 +233,8 @@
 
       <!-- Seção de Avaliação dos Clientes -->
       <section id="rating">
-        <img src="src/images/modelo.png" class="rating_model" />
+        <h2 class="section_title_mobile">Avaliações</h2>
+        <img src="src/images/modelandelements.png" id="rating_model" />
 
         <div id="rating_content">
           <h2 class="section_title">Avaliações</h2>
@@ -251,11 +243,11 @@
 
           <div id="feedbacks">
             <div class="feedback">
-              <img src="src/images/userpic1.webp" class="feedback_avatar" />
+              <img src="src/images/userpic1.png" class="feedback_avatar" />
 
               <div class="feedback_content">
-                <p>
-                  Lívia Bittencourt
+                <p class="user_name">
+                  Lívia Souza
                   <span>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -266,10 +258,10 @@
                 </p>
 
                 <p>
-                  "Incrível! A Doce Mundo é um verdadeiro tesouro para os amantes de doces. 
-                  Experimentei o Petit Gateau e fiquei maravilhado com a perfeição. 
+                  "Incrível!  
+                  Experimentei o Petit Gateau e fiquei maravilhada com a perfeição. 
                   Atendimento top e ambiente aconchegante. 
-                  Já estou planejando minha próxima visita!"
+                  Já estou planejando minha próxima visita! &#x2764;&#xFE0F;"
                 </p>
               </div>
             </div>
@@ -278,7 +270,7 @@
               <img src="src/images/userpic2.webp" class="feedback_avatar" />
 
               <div class="feedback_content">
-                <p>
+                <p class="user_name">
                   Caio Moreira
                   <span>
                     <i class="fa-solid fa-star"></i>
@@ -291,8 +283,8 @@
 
                 <p>
                   "Visitei a Doce Mundo e fiquei encantado! 
-                  O bolo de chocolate é de outro mundo. 
-                  Atendimento excepcional e ambiente muito acolhedor. 
+                  O bolo de chocolate é de outro mundo &#x1F602;. 
+                  Atendimento massa e ambiente muito acolhedor. 
                   Super recomendo!"
                 </p>
               </div>
